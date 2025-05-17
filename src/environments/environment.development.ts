@@ -1,7 +1,4 @@
-export const environment = {production: false,
-                            // Server Base Path for Fake REST API
-                            //serverBasePath: "http://localhost:3000"
-                            //serverBasePath: "https://my-json-server.typicode.com/estefanojaque/Managewise-reportes"
-                            // Server Base Path for Spring Boot REST API
-                            serverBasePath: 'managewise-ffbua6fpfmbteaeq.centralus-01.azurewebsites.net/api/v1'
-                            };
+export const environment = {
+  production: false,
+  serverBasePath: 'https://managewise-ffbua6fpfmbteaeq.centralus-01.azurewebsites.net/api/v1'
+};
