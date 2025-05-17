@@ -7,7 +7,7 @@ import { catchError, Observable, retry, throwError } from 'rxjs';
 })
 export class BaseService<T> {
   // Cambia la URL base al endpoint del servidor JSON
-   basePath: string = 'http://localhost:8090/api/v1';
+   basePath: string = 'https://managewise-ffbua6fpfmbteaeq.centralus-01.azurewebsites.net/api/v1';
     resourceEndpoint: string = '/meetings'; // Ajusta este endpoint si es necesario
 
   private http: HttpClient = inject(HttpClient);
