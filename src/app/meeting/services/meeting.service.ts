@@ -11,7 +11,6 @@ export class MeetingService extends BaseService<Meeting> {
 
   constructor() {
     super();
-
     this.resourceEndpoint = '/meetings';
   }
 }
