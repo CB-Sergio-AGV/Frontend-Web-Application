@@ -29,7 +29,7 @@ export class BaseService<T> {
 
   // Método para crear un recurso
   create(item: any): Observable<T> {
-    return this.http.post<T>('http://localhost:8090/api/v1/meetings', JSON.stringify(item), this.httpOptions)
+    return this.http.post<T>('https://managewise-ffbua6fpfmbteaeq.centralus-01.azurewebsites.net/api/v1/meetings', JSON.stringify(item), this.httpOptions)
       .pipe(retry(2), catchError(this.handleError));
   }
 
