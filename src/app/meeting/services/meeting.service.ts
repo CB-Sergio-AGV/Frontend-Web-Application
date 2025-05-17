@@ -11,6 +11,7 @@ export class MeetingService extends BaseService<Meeting> {
 
   constructor() {
     super();
+    this.basePath = `${environment.serverBasePath}`;
     this.resourceEndpoint = '/meetings';
   }
 }
