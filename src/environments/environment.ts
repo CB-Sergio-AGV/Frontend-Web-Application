@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serverBasePath: 'https://managewise-ffbua6fpfmbteaeq.centralus-01.azurewebsites.net/api/v1'
+  serverBasePath: 'https://managewise-backend-hfadgugthcc2erdd.centralus-01.azurewebsites.net/api/v1'
 };
